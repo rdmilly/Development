@@ -1,1 +1,15 @@
-
+json
+{
+  "name": "Flutter (Codespaces)",
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.dart-code",
+        "dart-code.flutter",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  },
+  "postCreateCommand": "/bin/bash .devcontainer/setup.sh"
+}
