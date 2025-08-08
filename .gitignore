@@ -1,0 +1,11 @@
+## .gitignore
+**/build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.vscode/
+.DS_Store
+Thumbs.db
